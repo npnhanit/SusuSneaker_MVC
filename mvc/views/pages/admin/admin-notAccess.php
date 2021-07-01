@@ -1,0 +1,1 @@
+<div class="mx-auto mt-5 text-md-center text-warning font-weight-bold">Rất tiếc bạn không có quyền truy cập</div>

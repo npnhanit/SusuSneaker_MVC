@@ -1,0 +1,314 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.text-header-admin {
+    color: linear-gradient(125deg, #9acee6, #ffffff) !important;
+}
+
+.navbar-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.3s ease-out 0s;
+    padding: 0;
+    /* background-color: #96c0ce93; */
+    /* background-image: linear-gradient(125deg, #248dbe75, #ffffff6b); */
+    background-image: linear-gradient(125deg, #ffffff, #bad4e0);
+}
+
+.introduction-admin {
+    padding-top: 200px;
+    position: relative;
+    background-image: url("../../../../SusuSneaker/public/image/helper/erik-mclean-OZ8OUNJiQ4E-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 780px;
+}
+
+.welcome-text-admin {
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes LtoR {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes LtoR {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    visibility: visible;
+    /* animation-delay: 0.5s; */
+    animation-duration: 1s;
+}
+
+.LtoR {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    visibility: visible;
+    /* animation-delay: 0.5s; */
+    animation-duration: 1s;
+}
+
+.item-admin-new {
+    position: relative;
+    /* background-image: url("../../../../SusuSneaker/public/image/helper/item.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 780px; */
+    padding-top: 100px;
+}
+
+.item-admin-new-left {
+    height: 100%;
+}
+
+.bg-temp {
+    background-color: #96c0ced5;
+}
+
+.item-admin-new-right {
+    height: 100%;
+    background-color: #96c0ceda;
+    height: 600px;
+}
+
+.employee-admin-new {
+    position: relative;
+    /* background-image: url("../../../../SusuSneaker/public/image/helper/employee.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 780px;
+    padding-top: 100px;
+}
+
+.customer-admin-new {
+    position: relative;
+    /* background-image: url("../../../../SusuSneaker/public/image/helper/customer.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 780px;
+    padding-top: 100px;
+}
+
+.order-admin-new {
+    position: relative;
+    /* background-image: url("../../../../SusuSneaker/public/image/helper/order.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 780px;
+    padding-top: 100px;
+}
+
+.border-4 {
+    border: 4px solid #e9ecef!important;
+}
+
+.get-in-touch {
+    max-width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+    color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+    background: -webkit-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+    background: linear-gradient(to right, #f4534d5f 0%, #5543ca68 100%) !important;
+    /* -webkit-background-clip: text !important; */
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0 0 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-color: #6393c4;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label,
+.contact-form .input-text:not(:invalid)+.label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+
+
+/* .contact-form .input-text:required:invalid+.label {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+} */
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #166782;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    background: -webkit-linear-gradient(125deg, #248ebe, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.select-text {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #166782;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    background: -webkit-linear-gradient(125deg, #248ebe, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-admin {
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    background: -webkit-linear-gradient(125deg, #248ebe, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg, #248ebe, #ffffff);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+}
+
+.text-title-login {
+    background: -webkit-linear-gradient(125deg, #8e4272, #166782);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editCustomer-container .title-table {
+    background-image: linear-gradient(125deg, #248ebe, #ffffff);
+}
+
+.refresh-password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-edit-image:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.view-edit-item {
+    background-image: linear-gradient(180deg, #ffffff, #96c0ce);
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+
+.btn-exit-edit-image {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
+
+.img-remove .img-x {
+    display: none;
+}
+
+.img-remove:hover .img-x {
+    display: block;
+}
+
+.img-x {
+    cursor: pointer;
+}
